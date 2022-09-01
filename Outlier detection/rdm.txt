@@ -1,0 +1,20 @@
+
+It is very hard to determine what we actually have to do with outliers whether we have to keep it or remove it or we have or we have to modify our dataframe in such a way that we can have some other parameters which will justify the outliers. As in some machine learning algo they are required for getting an optimum result like in anamoly detection algo in banking sector we use them so to detect whether there is any thing wrong with the credit card or not. 
+EFEECT OF OUTLIER ON ML MODELS :
+Linear , Logistic & adaboost(onsomal technique) which are affected by outliers and deep learning is also very much affected by outliers common pattern in these are we have to calculate weights in these model so seeing whether the we have to calculate weights in our model we can say if our model will be affected by outliers or not .
+What to do with the outlier :
+1. TRIMMING(Removal of outliers) :
+Problem of this approach is data will be heavly reduced 
+Advantage of this is that it is vary fast 
+2. CAPPING :
+It is just like the numbers which exceeds the upper limit and he numbers which are less then the lower limit the are removed by the upper limit and the lower limit numbers.
+3-Treating outliers as missing values
+4 - Last is using discretisation: Interval creation like bins in numbers like 0-10,10-20 etc. 
+We generally use 4 methods for dealing these outliers.
+==> Z Score
+==> Percentile method
+==> IQR method
+==> Winsoriatzation
+
+Outlier detection & removal
+
